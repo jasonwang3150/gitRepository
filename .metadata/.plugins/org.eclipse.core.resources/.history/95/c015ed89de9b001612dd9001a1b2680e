@@ -1,0 +1,5 @@
+package com.JPA.pojo;
+
+public class Student {
+
+}
