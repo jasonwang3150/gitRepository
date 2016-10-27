@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.JPA.demo&apos; to &apos;com.JPA.pojo&apos;&#x0A;- Original project: &apos;MyFirstGitJavaProject&apos;&#x0A;- Original element: &apos;MyFirstGitJavaProject/src/com.JPA.demo&apos;&#x0A;- Renamed element: &apos;MyFirstGitJavaProject/src/com.JPA.pojo&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.JPA.demo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.JPA.demo" name="com.JPA.pojo" qualified="false" references="true" stamp="1477528094532" textual="false" version="1.0"/>
+</session>
