@@ -8,7 +8,7 @@ import com.JPA.pojo.Student;
 
 public class StudentDao {
 	public void add(Student student){
-		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Eclipselink_JPA");
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Jason_JPA");
 		EntityManager entityManager = entityManagerFactory.createEntityManager();
 		entityManager.getTransaction().begin();
 		
@@ -17,5 +17,21 @@ public class StudentDao {
 		entityManager.getTransaction().commit();
 		entityManager.close();
 		entityManagerFactory.close();
+	}
+	
+	public void modify(Student student){
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Jason_JPA");
+		EntityManager entityManager = entityManagerFactory.createEntityManager();
+		entityManager.getTransaction().begin();
+		
+		Student changedStudent = entityManager.find(Student.class, student.getId());
+		System.out.println("Student name: " + changedStudent.getName() + " student address: " + changedStudent.getAddress());
+		changedStudent.setName(student.getName());
+		changedStudent.setAddress(student.getAddress());
+		
+		entityManager.getTransaction().commit();
+		entityManager.close();
+		entityManagerFactory.close();
+		
 	}
 }

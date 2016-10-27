@@ -10,11 +10,13 @@ public class Main {
 		StudentDao studentDao = new StudentDao();
 		
 		Student student = new Student();
-//		student.setId(1);
-		student.setName("Jason Wang");
-		student.setAddress("America");
+		student.setId(1);
+		student.setName("Jason Miao");
+		student.setAddress("China");
 		
-		studentDao.add(student);
+//		studentDao.add(student);
+		studentDao.modify(student);
+		
 	}
 
 }
