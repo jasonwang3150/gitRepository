@@ -12,4 +12,8 @@
 <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 <fullyQualifiedTypeName name="com.JPA.pojo.Student"/>
+<fullyQualifiedTypeName name="com.JPA.pojo.Gender"/>
+<fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
+<fullyQualifiedTypeName name="javax.persistence.EnumType"/>
+<fullyQualifiedTypeName name="com.JPA.pojo.Student.Gender"/>
 </qualifiedTypeNameHistroy>

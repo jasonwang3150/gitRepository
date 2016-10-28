@@ -1,6 +1,9 @@
 package com.JPA.pojo;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -12,10 +15,14 @@ public class Student {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	
 	private Integer id;
+	
 	private String name;
 	private String address;
+	
+//	@Column(name="GenderAD")
+	@Enumerated(EnumType.STRING)
+	private Gender gender;
 	
 	public Student(Integer id, String name, String address){
 		this.id = id;
@@ -46,9 +53,21 @@ public class Student {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
+	public Gender getGender() {
+		return gender;
+	}
+	public void setGender(Gender gender) {
+		this.gender = gender;
+	}
+
 	@Override
 	public String toString() {
 	   return "Student [id=" + id + ", name=" + name + ", address=" + address + "]";
 	}
+	
+	public enum Gender{
+		Male, Female
+	}
 }
+
+
