@@ -555,3 +555,7 @@ Caused by: java.io.IOException: read past EOF
 2017-01-31 23:47:42,020 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2017-01-31 23:47:42,031 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-01-31 23:47:42,031 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-01-31 23:48:16,720 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-31 23:48:16,727 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-01-31 23:48:16,730 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-31 23:48:16,730 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
