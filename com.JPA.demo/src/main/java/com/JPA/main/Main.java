@@ -17,7 +17,7 @@ public class Main {
 		student.setGender(Gender.Female);
 		
 		studentDao.add(student);
-//		studentDao.modify(student);
+		studentDao.modify(student);
 		
 	}
 
